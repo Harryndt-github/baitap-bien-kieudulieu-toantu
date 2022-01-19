@@ -1,0 +1,9 @@
+let R = parseInt(prompt('Vui lòng nhập bán kính hình tròn'));
+const pi = 3.14159;
+let D = R * 2;
+let C = (R * 2) * pi;
+let S = (R * R) * pi;
+document.write('Hình tròn có bán kính = ', R, '<br');
+document.write('Có bán kính = ', D, '<br');
+document.write('Có chu vi = ', C, '<br');
+document.write('Có diện tích = ', S , '<br');
